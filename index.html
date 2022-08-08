@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+   <script src="/assets/js/script.js"></script>
+   <!-- Font awesome icons + Google Font-->
+   <script src="https://kit.fontawesome.com/68f0de29ed.js" crossorigin="anonymous"></script>
     <title>Classic Rock, Paper, Scissors Game</title>
 </head>
 <body>
+    <header>
+        <h1>Rock - Paper - Scissors Game vs Computer</h1>
+    </header>
+
+    <div id="game-result">?</div>
+
+    <div class="button-choice">
+        <button data-type="rock" class="">
+            <i class="fa-solid fa-hand-back-fist"></i>
+        </button>
+        <button data-type="paper" class="">
+            <i class="fa-solid fa-hand"></i>
+        </button>
+        <button data-type="scissor" class="">
+            <i class="fa-solid fa-hand-scissors"></i>
+        </button>
+    </div>
+
+    <div class="rps-score-area">
+        <p class="user">You</p>
+        <p id="win">Wins <span id="scores">0</span></p>
+    </div>
+
+    <div class="rps-score-area-com">
+        <p class="computer">Computer</p>
+        <p id="win-computer">Wins <span id="score">0</span></p>-
+    </div>
     
 </body>
 </html>
