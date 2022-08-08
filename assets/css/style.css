@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+}
+
+.button-choice {
+    align-content: center;
+    margin-left: 50vh;
+}
+
+h1 {
+    align-items: center;
+}
+
+.btn {
+    width: 140px;
+    height: 140px;
+    font-size: 100px;
+    margin-left: 1%;
+    text-align: center;
+    background-color: gray; 
+}
+
+
+
+.btn-rock {
+    color: black;
+}
+
+.btn-paper {
+    color: white;
+}
+
+.btn-scissor {
+    color: #800000;
+}
