@@ -5,40 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-   <script src="/assets/js/script.js"></script>
+   
    <!-- Font awesome icons + Google Font-->
    <script src="https://kit.fontawesome.com/68f0de29ed.js" crossorigin="anonymous"></script>
     <title>Classic Rock, Paper, Scissors Game</title>
 </head>
-<body>
-    <header>
-        <h1>Rock - Paper - Scissors Game vs Computer</h1>
-    </header>
-
-    <div id="game-result">place holder</div>
+<body></body>
 <div class="wrapper">
-    <div class="button-choice">
-        <button data-type="rock" class="btn btn-rock">
-            <i class="fa-solid fa-hand-back-fist"></i>
-        </button>
-        <button data-type="paper" class="btn btn-paper">
-            <i class="fa-solid fa-hand"></i>
-        </button>
-        <button data-type="scissor" class="btn btn-scissor">
-            <i class="fa-solid fa-hand-scissors"></i>
-        </button>
+    <div class="score">
+        <p>Computer : <span id="comp_score">0</span></p>
+        <p>You: <span id="user-score">0</span></p>
+    </div>
+    <div class="rps-choices">
+        <button onclick="control('rock')"><img src="/assets/img/rock.jpg"></button>
+        <button onclick="control('paper')"><img src="/assets/img/paper.jpg"></button>
+        <button onclick="control('scissor')"><img src="/assets/img/scissor.jpg"></button>
+    </div>
+    <div class="details">
+        <p id="user_choice"></p>
+        <p id="comp_choice"></p>
+        <p id="result"></p>
     </div>
 
-    <div class="rps-score-area">
-        <p class="user">You</p>
-        <p id="win">Wins: <span id="scores">0</span></p>
-    </div>
 
-    <div class="rps-score-area-com">
-        <p class="computer">Computer</p>
-        <p id="win-computer">Wins: <span id="score">0</span></p>
-    </div>
 </div>
-    
-</body>
+<!-- Javascript source-->
+    <script src="/assets/js/script.js"></script>
+  </body>
 </html>
