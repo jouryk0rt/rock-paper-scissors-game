@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Source+Sans+Pro&display=swap');
+
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
     background-color:lightgray;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    margin-top: 5%;
+}
+
+button {
+    align-content: center;
+    max-width: 120px;
+    max-height: 140px;
+    font-size: 100px;
+    margin-top: 2%;
+    margin-left: 2%;
+    align-items: center;
+    background-color: gray; 
+}
+
+img { 
+    max-width: 110px;
+    max-height: 85px;
 }
 
 .wrapper {
@@ -15,22 +38,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
-    margin-top: 5%;
     background-color: white;
 }
-button {
-    align-content: center;
-    max-width: 120px;
-    max-height: 140px;
-    font-size: 100px;
-    margin-top: 2%;
-    align-items: center;
-    background-color: gray; 
-}
 
-img { 
-    max-width: 100%;
-}
 
 #result {
     border-radius:0;

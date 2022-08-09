@@ -5,25 +5,46 @@ let possibleChoices = {
     'rock' : {
         'rock' : 'draw',
         'scissor' : 'win',
-        'paper' : 'lose'
+        'paper' : 'lose',
+        'lizard' : 'win',
+        'spock' : 'lose'
     },
     'paper' : {
         'rock' : 'win',
         'scissor' : 'lose',
-        'paper' : 'draw'
+        'paper' : 'draw',
+        'lizard' : 'lose',
+        'spock' : 'win'
     },
     'scissor' : {
         'rock' : 'lose',
         'scissor' : 'draw',
-        'paper' : 'win'
+        'paper' : 'win',
+        'lizard' : 'win',
+        'spock' : 'lose'
+    },
+    'lizard' : {
+        'rock' : 'lose',
+        'scissor' : 'lose',
+        'paper' : 'win',
+        'lizard' : 'draw',
+        'spock' : 'win'
+    },
+    'spock' : {
+        'rock' : 'win',
+        'scissor' : 'win',
+        'paper' : 'lose',
+        'lizard' : 'lose',
+        'spock' : 'draw'
     }
+
 }
 
 /**  */
 function control(input){
     // Let the computer make a random choice in the array and prints the users and computer's choices to screen
-    const choices = ["rock", "paper", "scissor"];
-    let num1 = Math.floor(Math.random() * 3);
+    const choices = ["rock", "paper", "scissor", "lizard", "spock"];
+    let num1 = Math.floor(Math.random() * 5);
 
     document.getElementById("comp_choice").innerHTML = `Computer chooses <span>${choices[num1].toUpperCase()}</span>`;
     
