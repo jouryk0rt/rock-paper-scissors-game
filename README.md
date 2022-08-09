@@ -10,29 +10,28 @@ My 2nd website is a classic game, rock paper scissor, but an extended version of
 
 I initially wanted to make an easy rock, paper scissor game, the goal of it was to make the user play rock paper scissors.
 
-![Picture of navigation bar](/assets/css/images/nav-bar.png)
+![Picture of rock paper scissor buttons](/assets/css/images/rock-paper-scissor.png)
 
 ### Extended with Lizard, Spock Buttons
 
 However, I thought visitors would enjoy more and keep playing if I extend the game with 2 more buttons.
 
-![Picture of facts section](/assets/css/images/facts.png)
+![Picture of lizard, spock button](/assets/css/images/lizard-spock.png)
 
 ### Your Score
 
 Added Javascript to see who wins and if you win increase your win score by +1. Used a google font via @import function.
 
-![Picture of quote section](/assets/css/images/quotes.png)
 
 ### Computer Score
 
-The computer automatically chooses a random button. this was done with math.floor and math.random.
-![Picture of contact section (form) ](/assets/css/images/contact-form.png)
+The computer automatically chooses a random button. this was done with math.floor and math.random. We also calculate their wins.
+![Picture of computer wins and user wins](/assets/images/computer-you.png)
 
 ### Lost/ Won 
 
 Beneat the buttons there is a text which let the user know if they have lost, won or tied, with their button they chose and the computer chosen button for that round.
-![Picture of footer](/assets/css/images/footer.png)
+![Picture of Lost / Won](/assets/images/won.png)
 
 ### Features left to implement
 
@@ -49,10 +48,10 @@ Lighthouse performance test -
 https://web.dev/measure/?url=https%3A%2F%2Fjouryk0rt.github.io%2Frock-paper-scissors-game%2F
 
 W3C CSS Validator - No Errors found
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjouryk0rt.github.io%2Fmarcus-aurelius-history%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=nl
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjouryk0rt.github.io%2Frock-paper-scissors-game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=nl
 
 Validator W3 (HTML) - Document checking completed. No errors or warnings to show.
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fjouryk0rt.github.io%2Fmarcus-aurelius-history%2F
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fjouryk0rt.github.io%2Frock-paper-scissors-game%2F
 
 ## Manual Testing
 Developer tools - tried resizing it to different sizes, all looks good. Page loads fast because of compromised images and everything works as intended.
@@ -67,7 +66,7 @@ Put the source on main and keep the folder on root (/)
 Then Press save, it can take some time for the webpage to be live.
 If the website is not live after 15mins, there may be something going on with the github status.
  check it out here: https://www.githubstatus.com/
-The live link of this project be found here - https://jouryk0rt.github.io/marcus-aurelius-history/
+The live link of this project be found here - https://jouryk0rt.github.io/rock-paper-scissors-game/
 
 ## Credits
 ### Content
