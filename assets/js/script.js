@@ -1,3 +1,5 @@
+// variables
+// some of the javascript is from Coding Artist; https://www.youtube.com/watch?v=Iwvf9iBP04M&t=530s
 let compScore = 0;
 let userScore = 0;
 let getResult = document.getElementById("result");
@@ -40,7 +42,7 @@ let possibleChoices = {
 
 }
 
-/**  */
+/** Function for controls and results within the javascript rpsls game */
 function control(input){
     // Let the computer make a random choice in the array and prints the users and computer's choices to screen
     const choices = ["rock", "paper", "scissor", "lizard", "spock"];
@@ -70,6 +72,7 @@ function control(input){
         getResult.innerHTML = "Error occured... please try again";
  }
 
+// Setting the score amount / amount of wins in the html of the webpage
  document.getElementById("comp_score").innerHTML = compScore;
 
  document.getElementById("user_score").innerHTML = userScore;

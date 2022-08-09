@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="rock paper scissors lizard spock javascript game">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
    
    <!-- Font awesome icons -->
@@ -13,10 +14,12 @@
 <body></body>
 <header><h1>Extended, Easy and Enjoyable Rock, Paper, Scissors Game</h1></header>
 <div class="wrapper">
+    <!-- Your total wins, computer total wins -->
     <div class="score">
         <p>Computer : <span id="comp_score">0</span></p>
         <p>You: <span id="user_score">0</span></p>
     </div>
+    <!-- Button section, choosing between 5-->
     <div class="rps-choices">
         <button aria-label="rock" onclick="control('rock')"><img src="/assets/img/rock.jpg" alt="choose rock"></button>
         <button aria-label="paper" onclick="control('paper')"><img src="/assets/img/paper.jpg" alt="choose paper"></button>
@@ -24,6 +27,7 @@
         <button aria-label="lizard" onclick="control('lizard')"><img src="/assets/img/lizard.jpg" alt="choose lizard"></button>
         <button aria-label="spock" onclick="control('spock')"><img src="/assets/img/spock.jpg" alt="choose spock"></button>
     </div>
+    <!--  the result of each round-->
     <div class="details">
         <p id="user_choice"></p>
         <p id="comp_choice"></p>
