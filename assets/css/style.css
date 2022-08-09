@@ -20,31 +20,21 @@ body {
 }
 button {
     align-content: center;
-    max-width:10%;
-}
-
-.btn {
-    max-width: 140px;
+    max-width: 120px;
     max-height: 140px;
     font-size: 100px;
-    margin-left: 1%;
-    margin-top: 5%;
-    text-align: center;
+    margin-top: 2%;
+    align-items: center;
     background-color: gray; 
-}
-
-
-
-.computer, .user {
-    font-size: 150%;
-    font-weight:bold;
-}
-
-#win, #win-computer{
-    font-size: 120%;
 }
 
 img { 
     max-width: 100%;
-    max-height: 100%;
+}
+
+#result {
+    border-radius:0;
+    background-color:#fff00f;
+    margin: auto;
+    max-width: fit-content;
 }
