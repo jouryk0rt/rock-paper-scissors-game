@@ -1,14 +1,25 @@
 body {
-    width: 100%;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+    background-color:lightgray;
 }
 
+.wrapper {
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    margin-top: 2%;
+    background-color: white;
+}
 .button-choice {
     align-content: center;
-    margin-left: 50vh;
-}
-
-h1 {
-    align-items: center;
 }
 
 .btn {
@@ -32,4 +43,13 @@ h1 {
 
 .btn-scissor {
     color: #800000;
+}
+
+.computer, .user {
+    font-size: 150%;
+    font-weight:bold;
+}
+
+#win, #win-computer{
+    font-size: 120%;
 }
