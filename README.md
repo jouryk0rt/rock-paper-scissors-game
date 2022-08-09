@@ -2,7 +2,7 @@
 
 My 2nd website is a classic game, rock paper scissor, but an extended version of it with lizard and spock (Big Bang Theory). The main goal for the website/game is to let the visitors play this easy, classic game and let them enjoy. It's a one-page website design with 5 buttons and made with javascript, html and css.
 
-![Mockup of finished project](/assets/img/mockup-project-rps.png)
+![Mockup of finished project](/assets/images/mockup-project-rps.png)
 
 ## Features
 
@@ -10,13 +10,13 @@ My 2nd website is a classic game, rock paper scissor, but an extended version of
 
 I initially wanted to make an easy rock, paper scissor game, the goal of it was to make the user play rock paper scissors.
 
-![Picture of rock paper scissor buttons](assets/img/rock-paper-scissor.png)
+![Picture of rock paper scissor buttons](assets/images/rock-paper-scissor.png)
 
 ### Extended with Lizard, Spock Buttons
 
 However, I thought visitors would enjoy more and keep playing if I extend the game with 2 more buttons.
 
-![Picture of lizard, spock button](assets/img/lizard-spock.png)
+![Picture of lizard, spock button](assets/images/lizard-spock.png)
 
 ### Your Score
 
@@ -26,12 +26,12 @@ Added Javascript to see who wins and if you win increase your win score by +1. U
 ### Computer Score
 
 The computer automatically chooses a random button. this was done with math.floor and math.random. We also calculate their wins.
-![Picture of computer wins and user wins](./assets/img/computer-you.png)
+![Picture of computer wins and user wins](/assets/images/computer-you.png)
 
 ### Lost/ Won 
 
 Beneat the buttons there is a text which let the user know if they have lost, won or tied, with their button they chose and the computer chosen button for that round.
-![Picture of Lost / Won](./assets/img/won.png)
+![Picture of Lost / Won](/assets/images/won.png)
 
 ### Features left to implement
 
@@ -44,7 +44,7 @@ No Bugs as far as is known.
 
 ## Testing
 Lighthouse performance test -
-![Lighthouse test](/assets/img/manual-testing.png)
+![Lighthouse test](/assets/images/manual-testing.png)
 https://web.dev/measure/?url=https%3A%2F%2Fjouryk0rt.github.io%2Frock-paper-scissors-game%2F
 
 W3C CSS Validator - No Errors found
