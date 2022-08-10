@@ -87,6 +87,8 @@ Photo by <a href="https://unsplash.com/@tomexx?utm_source=unsplash&utm_medium=re
 
 Afbeelding van <a href="https://pixabay.com/nl/users/brenkee-2021352/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1541528">Benjamin Balazs</a> via <a href="https://pixabay.com/nl//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1541528">Pixabay</a>utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Favicon from <a href="https://www.freeimages.com/photo/rock-paper-scissors-2-1241086">WinJohn</a>
+
 ### Code from others (rewritten)
 https://www.youtube.com/watch?v=Iwvf9iBP04M&t=530s used this code for some of the javascript part
 
