@@ -25,6 +25,10 @@ button {
     background-color: gray; 
 }
 
+button:hover {
+    background-color: #fff00f;
+}
+
 img { 
     max-width: 110px;
     max-height: 85px;

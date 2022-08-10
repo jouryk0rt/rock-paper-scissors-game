@@ -4,6 +4,24 @@ My 2nd website is a classic game, rock paper scissor, but an extended version of
 
 ![Mockup of finished project](/assets/images/mockup-project-rps.png)
 
+## UI/UX
+
+### Strategy
+The main goal of this project was to create a rock, paper scissor game, which is responsive and works. Extended with Lizard, Spock.
+
+### Scope
+For this project I wanted a good challenge for the user, where user can make it's own choices in the game. Further I also wanted users to have a good experience so it needed to be responsive as described in strategy.
+
+### Structure
+An basic but good design, minimized image and great layout which makes the site super fast and accessible.
+h1 at the top for seo practices and looks good on the eye.
+Then the score of user aswell as computer, just beneath that.
+Buttons in the middle of the wrapper.
+Choice from user and computer aswell as result beneath the buttons.
+
+### Surface
+Colours used are: Mainly;Gray, white, little bit black for borders, yellow for win or lose and hovering over buttons and finally dark gray for title.
+
 ## Features
 
 ### Rock, Paper, Scissor Buttons
